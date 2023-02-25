@@ -1,0 +1,128 @@
+@font-face {
+    font-family: metropolis-regular;
+    src: url(fonts/metropolis.regular.otf);
+}
+@font-face { 
+    font-family: metropolis-thin;
+    src: url(fonts/metropolis.thin.otf);
+}
+
+.header-section-div {
+    background-image: url(images/header-background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: metropolis-thin;
+    height: 450px;
+    justify-content: space-around;
+}
+
+.zomato-logo{
+    height: 62px;
+    margin-top: 30px;
+}
+body{
+    margin: 0;
+}
+.top-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+ .top-right-div, .top-left-div, .location-and-searchbox-div, .account{
+    display: flex;
+    align-items: center;
+}
+
+.dp{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.name{
+    font-size: 16px;
+}
+.tooltip-icon{
+    height: 15px;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+.gta-icon{
+    height: 15px;
+    margin-right: 7px;
+}
+.header-section-div{
+    color: white;
+}
+
+.top-right-div{
+    font-family: metropolis-thin;
+    font-size: 9px;
+    width: 35%;
+    margin-right: -75px;
+    justify-content: space-between;
+}
+.top-left-div{
+    font-size: 7px;
+}
+.subtitle-div{
+    font-family: metropolis-regular;
+    font-size: 35px;
+}
+
+.location-and-searchbox-div{
+    width: 52%;
+    background-color: white;
+    color: rgb(113, 113, 113);
+    font-family: metropolis-regular;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.location{
+    font-size: 15px;
+}
+
+.searchbar{
+    border: none;
+    background: none;
+    width: 90%;
+    color: rgb(113, 113, 113) ;
+    font-family: metropolis-regular;
+    font-size: 15px;
+}
+.searchbar:focus{
+    outline: none;
+}
+ .search-icon{
+    height: 20px;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+.location-icon{
+    height: 20px;
+    width: 18px;
+}
+.location-box{
+    height: 6px;
+    margin-right: 3px;
+}
+.location-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex:0.8;
+    padding: 5px;
+    padding-left: 15px;
+}
+.searchbar-div{
+    display: flex;
+    align-items: center;
+    flex:2;
+}
