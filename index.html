@@ -43,7 +43,29 @@
         <div class="location-div">
             <img class="location-icon" src="images/location-icon.png">
             <p class="location">Puttur, Karnataka, India</p>
-            <img class="location-box" src="images/location-box.png">
+            <img id="location-box" class="location-box" src="images/location-box.png">
+
+            <div id="location-tooltip" class="location-tooltip">
+                <div class="detect-current-location">
+                    <div class="dcl-icon">
+                        <img class="dcl-icon-img" src="images/get-location-icon.png">
+                    </div>
+                    <div class="dcl-elements">
+                        <h1 class="dcl-heading">Detect current location</h1>
+                        <h2 class="using-gps">Using GPS</h2>
+                    </div>
+                </div>
+                <div class="recent-location">
+                    <div>
+                        <h1 class="rl-heading">Recent Locations</h1>
+                    </div>
+                    <div class="rl">
+                        <img class="clock-img" src="images/clock.png">
+                        <p class="rl-address">Puttur, Karnataka</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div>
             <p class="separator">&VerticalLine;<p>
@@ -60,6 +82,21 @@
 
 
 <!--Footer section-->
+
+
+<script>
+    const image = document.getElementById("location-box");
+const tooltip = document.getElementById("location-tooltip");
+
+image.addEventListener("click", function() {
+  if (tooltip.style.display === "block") {
+    tooltip.style.display = "none";
+  } else {
+    tooltip.style.display = "block";
+  }
+});
+
+</script>
 
 </body>
 </html>
