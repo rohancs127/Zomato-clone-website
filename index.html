@@ -26,7 +26,19 @@
         <div class="account">
             <img class="dp" src="images/DSC00141.JPG">
             <h1 class="name">Rohan</h1>
-            <img class="tooltip-icon" src="images/white-down-arrow.png">
+            <img id="tooltip-icon" class="tooltip-icon" src="images/white-down-arrow.png">
+
+            <div id="account-tooltip-div" class="account-tooltip-div">
+                <div class="tooltip-element-top">Profile</div>
+                <div class="tooltip-element">Notifications</div>
+                <div class="tooltip-element">Bookmarks</div>
+                <div class="tooltip-element">Reviews</div>
+                <div class="tooltip-element">Networks</div>
+                <div class="tooltip-element">Find friends</div>
+                <div class="tooltip-element">Settings</div>
+                <div class="tooltip-element-bottom">Log out</div>
+            </div>
+
         </div>
      </div>
     </div>
@@ -36,14 +48,14 @@
     </div>
 
     <div class="subtitle-div">
-        <p>Discover the best food and drinks in <strong>Puttur</strong></p>
+        Discover the best food and drinks in <strong>Puttur</strong>
     </div>
 
     <div class="location-and-searchbox-div">
         <div class="location-div">
-            <img class="location-icon" src="images/location-icon.png">
-            <p class="location">Puttur, Karnataka, India</p>
-            <img id="location-box" class="location-box" src="images/location-box.png">
+            <div><img class="location-icon" src="images/location-icon.png"></div>
+            <div><p class="location">Puttur, Karnataka, India</p></div>
+            <div><img id="location-box" class="location-box" src="images/location-box.png"></div>
 
             <div id="location-tooltip" class="location-tooltip">
                 <div class="detect-current-location">
@@ -61,14 +73,14 @@
                     </div>
                     <div class="rl">
                         <img class="clock-img" src="images/clock.png">
-                        <p class="rl-address">Puttur, Karnataka</p>
+                        <p class="rl-address">Puttur, Karnataka
                     </div>
                 </div>
             </div>
 
         </div>
         <div>
-            <p class="separator">&VerticalLine;<p>
+            <img class="separator" src="images/vertical-line.png">
         </div>
         <div class="searchbar-div">
             <img class="search-icon" src="images/search-icon.png">
@@ -85,6 +97,7 @@
 
 
 <script>
+    //location-tooltip
     const image = document.getElementById("location-box");
 const tooltip = document.getElementById("location-tooltip");
 
@@ -93,6 +106,18 @@ image.addEventListener("click", function() {
     tooltip.style.display = "none";
   } else {
     tooltip.style.display = "block";
+  }
+});
+
+//account-tooltip
+const icon = document.getElementById("tooltip-icon");
+const accountTooltip = document.getElementById("account-tooltip-div");
+
+icon.addEventListener("click", function() {
+  if (accountTooltip.style.display === "block") {
+    accountTooltip.style.display = "none";
+  } else {
+    accountTooltip.style.display = "block";
   }
 });
 

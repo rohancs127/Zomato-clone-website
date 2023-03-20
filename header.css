@@ -29,6 +29,7 @@ body{
 }
 .top-menu{
     display: flex;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
 
@@ -54,6 +55,8 @@ body{
     height: 15px;
     margin-left: 6px;
     margin-top: -2px;
+    cursor: pointer;
+    position: relative;
 }
 .gta-icon{
     height: 15px;
@@ -108,13 +111,15 @@ body{
     margin-right: 10px;
 }
 .location-icon{
-    height: 20px;
+    height: 21px;
     width: 18px;
+    opacity: 0.7;
+    margin-right: 5px;
 }
 .location-box{
     height: 6px;
-    margin-right: 3px;
     opacity: 0.7;
+    margin-bottom: 3px;
 }
 .location-div{
     display: flex;
@@ -122,7 +127,10 @@ body{
     justify-content: space-between;
     flex:0.8;
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
+}
+.separator{
+    height: 20px;
 }
 .searchbar-div{
     display: flex;
@@ -206,4 +214,38 @@ h1{
 .rl-address{
     color: rgb(25, 25, 25);
     font-size: 15px;
+}
+
+
+.account-tooltip-div{
+    /* display: grid;
+    grid-template-rows: 8; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 160px;
+    background-color: white;
+    color: black;
+    font-family: metropolis-thin;
+    font-size: 15px;
+    border-radius: 10px;
+    display:none
+}
+.tooltip-element, .tooltip-element-top, .tooltip-element-bottom{
+    margin: 0;
+    padding: 13px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.tooltip-element-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.tooltip-element-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tooltip-element:hover, .tooltip-element-top:hover, .tooltip-element-bottom:hover{
+    background-color: #dcdbdb;
 }
