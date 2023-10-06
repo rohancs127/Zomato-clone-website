@@ -16,13 +16,22 @@
     flex-direction: column;
     align-items: center;
     font-family: metropolis-thin;
-    height: 520px;
-    justify-content: space-around;
+    justify-content:space-between;
+    row-gap: 30px;
+    max-height: 620px;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: metropolis-thin;
+    justify-content:space-between;
 }
 
 .zomato-logo{
-    height: 62px;
-    margin-top: 30px;
+    height: 55px;
+    display:block;
+    /* margin-top: 30px; */
 }
 body{
     margin: 0;
@@ -32,6 +41,7 @@ body{
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    padding: 17px;
 
 }
 
@@ -78,7 +88,8 @@ body{
 }
 .subtitle-div{
     font-family: metropolis-regular;
-    font-size: 35px;
+    font-size: 32px;
+    margin-top: 30px;
 }
 
 .location-and-searchbox-div{
@@ -88,7 +99,8 @@ body{
     color: rgb(113, 113, 113);
     font-family: metropolis-regular;
     border-radius: 10px;
-    margin-bottom: 90px;
+    margin-top: 35px;
+    margin-bottom: 100px;
 }
 .location{
     font-size: 15px;
