@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   justify-content: space-between;
   row-gap: 30px;
   max-height: 620px;
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   justify-content: space-between;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .top-right-div {
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   font-size: 8.5px;
   width: 35%;
   margin-right: -75px;
@@ -89,7 +89,7 @@ body {
   font-size: 7px;
 }
 .subtitle-div {
-  font-family: metropolis-regular;
+  font-family: metropolis-regular, Arial, Helvetica, sans-serif;
   font-size: 32px;
   margin-top: 30px;
 }
@@ -99,7 +99,7 @@ body {
   min-width: 750px;
   background-color: white;
   color: rgb(113, 113, 113);
-  font-family: metropolis-regular;
+  font-family: metropolis-regular, Arial, Helvetica, sans-serif;
   border-radius: 10px;
   margin-top: 35px;
   margin-bottom: 100px;
@@ -113,7 +113,7 @@ body {
   background: none;
   width: 87%;
   color: rgb(113, 113, 113);
-  font-family: metropolis-regular;
+  font-family: metropolis-regular, Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 .searchbar:focus {
@@ -193,14 +193,14 @@ h1 {
 }
 
 .dcl-heading {
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   color: rgb(239, 79, 95);
   font-size: 16px;
   letter-spacing: 1px;
 }
 .using-gps {
   color: #9c9c9c;
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -211,7 +211,7 @@ h1 {
 }
 
 .rl-heading {
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: black;
   letter-spacing: 1px;
@@ -241,7 +241,7 @@ h1 {
   right: 160px;
   background-color: white;
   color: black;
-  font-family: metropolis-thin;
+  font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   font-size: 15px;
   border-radius: 10px;
   display: none;
