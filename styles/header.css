@@ -105,7 +105,7 @@ body {
   margin-bottom: 100px;
 }
 .location {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .searchbar {
@@ -114,7 +114,7 @@ body {
   width: 87%;
   color: rgb(113, 113, 113);
   font-family: metropolis-regular, Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 .searchbar:focus {
   outline: none;
