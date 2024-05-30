@@ -18,7 +18,7 @@
   font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   justify-content: space-between;
   row-gap: 30px;
-  max-height: 620px;
+  height: 520px;
 }
 .elements {
   display: flex;
