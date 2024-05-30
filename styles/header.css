@@ -26,6 +26,7 @@
   align-items: center;
   font-family: metropolis-thin, Arial, Helvetica, sans-serif;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .zomato-logo {
