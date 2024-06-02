@@ -1,3 +1,28 @@
+@font-face {
+  font-family: metropolis-thin;
+  src: url("../fonts/metropolis.thin.otf");
+}
+
+@font-face {
+  font-family: metropolis-medium;
+  src: url("../fonts/metropolis.medium.otf");
+}
+
+@font-face {
+  font-family: metropolis-regular;
+  src: url("../fonts/metropolis.regular.otf");
+}
+
+@font-face {
+  font-family: metropolis-semibold;
+  src: url("../fonts/metropolis.semi-bold.otf");
+}
+
+@font-face {
+  font-family: metropolis-extralight;
+  src: url("../fonts/metropolis.extra-light.otf");
+}
+
 .header-section-div {
   background-image: url("../images/header-background.avif");
   background-size: 110%;
