@@ -71,6 +71,10 @@ body {
   margin-left: 100px;
 }
 
+.account{
+  column-gap: 7px;
+}
+
 .dp {
   height: 40px;
   width: 40px;

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: metropolis-thin;
+    src: url("../fonts/metropolis.thin.otf");
+  }
+  
+  @font-face {
+    font-family: metropolis-medium;
+    src: url("../fonts/metropolis.medium.otf");
+  }
+  
+  @font-face {
+    font-family: metropolis-regular;
+    src: url("../fonts/metropolis.regular.otf");
+  }
+  
+  @font-face {
+    font-family: metropolis-semibold;
+    src: url("../fonts/metropolis.semi-bold.otf");
+  }
+  
+  @font-face {
+    font-family: metropolis-extralight;
+    src: url("../fonts/metropolis.extra-light.otf");
+  }
+  
+.middle-section-1, .middle-section-2, .middle-section-3{
+    font-family: metropolis-regular;
+}
+
+.order-online {
+  width: 550px;
+  height: 260px;
+}
+
+.order-online-img {
+  width: 100%;
+  height: 100%;
+}
+
+.order-online-text{
+    position:relative;
+    bottom: 100px;
+    background-color: #fff;
+    padding: 10px;
+}
