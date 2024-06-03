@@ -56,9 +56,10 @@ body {
 .top-menu {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   padding: 17px;
+  column-gap: 320px;
 }
 
 .top-right-div,
@@ -67,6 +68,7 @@ body {
 .account {
   display: flex;
   align-items: center;
+  margin-left: 100px;
 }
 
 .dp {
@@ -75,7 +77,6 @@ body {
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-  margin-right: 6px;
 }
 .name {
   font-size: 16px;
@@ -97,10 +98,11 @@ body {
 
 .top-right-div {
   font-family: metropolis-thin, Arial, Helvetica, sans-serif;
-  font-size: 8.5px;
+  font-size: 8.1px;
   width: 35%;
   margin-right: -75px;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 40px;
 }
 .top-left-div {
   font-size: 7px;
@@ -159,7 +161,7 @@ body {
   column-gap: 2px;
   align-items: center;
   justify-content: start;
-  flex: 0.8;
+  flex: 0.9;
   padding: 3px;
   padding-left: 10px;
 }
