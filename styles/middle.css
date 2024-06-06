@@ -28,18 +28,30 @@
 }
 
 .order-online {
-  width: 550px;
+  width: 500px;
   height: 260px;
 }
 
 .order-online-img {
   width: 100%;
   height: 100%;
+  
 }
 
 .order-online-text{
     position:relative;
-    bottom: 100px;
+    bottom: 90px;
     background-color: #fff;
-    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.order-online-title, .order-online-subtitle{
+  margin: 10px;
+  color: rgb(60, 60, 60);
+}
+
+.order-online-title{
+  font-size: 1.1rem;
 }
