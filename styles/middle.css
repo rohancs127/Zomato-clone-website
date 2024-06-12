@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 
 .order-online {
@@ -84,4 +84,14 @@
 
 .location-name{
   color: rgb(34, 34, 34);
+  margin: 0;
+}
+
+.locality-checkin{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: solid 1px rgb(201, 201, 201);
+  padding: 20px;
 }
