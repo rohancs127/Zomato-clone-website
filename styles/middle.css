@@ -27,7 +27,7 @@
     font-family: metropolis-regular;
   }
 
-.middle-section-1{
+.middle-section-1, .middle-section-2{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -71,4 +71,17 @@
 
 .order-online-title{
   font-size: 1.1rem;
+}
+
+.middle-section-2{
+  margin-top: 50px;
+  font-family: metropolis-thin;
+}
+
+.mid-sec-2-heading{
+  color: rgb(88, 88, 88);
+}
+
+.location-name{
+  color: rgb(34, 34, 34);
 }
