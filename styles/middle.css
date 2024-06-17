@@ -84,6 +84,7 @@
 
 .mid-sec-2-heading{
   color: rgb(88, 88, 88);
+  letter-spacing: 1px;
 }
 
 .location-name{
@@ -142,9 +143,21 @@
 .get-the-zomato-app-div{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   row-gap: 20px;
 }
 
+.get-the-zomato-app-div h1{
+  font-family: metropolis-regular;
+  font-size: 37px;
+  letter-spacing: 2px;
+}
+
 .get-the-zomato-app-div p{
-  width: 450px;
+  line-height:1.8;
+  width: 460px;
+}
+
+.get-the-zomato-app-subtitle{
+  color: rgb(57, 57, 57);
 }
