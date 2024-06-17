@@ -119,3 +119,32 @@
 .arrow-right{
  color: rgb(91, 91, 91);
 }
+
+.smartphone-img{
+  height: 200px;
+}
+
+.middle-section-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  column-gap: 55px;
+  background-color: rgb(255, 251, 247);
+  padding: 40px;
+}
+
+.get-the-zomato-app-div *{
+  margin: 0;
+  padding: 0;
+}
+
+.get-the-zomato-app-div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.get-the-zomato-app-div p{
+  width: 450px;
+}
