@@ -25,7 +25,7 @@
 
 .header-section-div {
   background-image: url("../images/header-background.avif");
-  background-size: 110%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -57,7 +57,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 98%;
   padding: 17px;
   column-gap: 320px;
 }
