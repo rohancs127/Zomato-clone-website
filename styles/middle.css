@@ -168,11 +168,21 @@
   color: rgb(57, 57, 57);
 }
 
+.email-phone-share-div{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
 .email-phone-input{
-  padding: 15px;
+  padding: 12px;
+  font-family: metropolis-regular;
+  font-size: 18px;
 }
 
 .share-app-btn{
+  font-family: metropolis-regular;
+  font-size: 15px;
   background-color: rgb(239, 79, 95);
   padding: 16px;
   border: none;
