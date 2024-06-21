@@ -175,10 +175,23 @@
 }
 
 .email-phone-input{
-  padding: 12px;
-  font-family: metropolis-regular;
-  font-size: 18px;
+  padding: 14px;
+  font-family: metropolis-thin;
+  font-size: 17px;
+  width: 250px;
+  border: solid 1px rgb(199, 199, 199);
+  border-radius: 5px;
+  outline: none;
 }
+
+.email-phone-input::placeholder{
+  color: gray;
+}
+
+.email-phone-input:focus{
+  border-color: green;
+}
+
 
 .share-app-btn{
   font-family: metropolis-regular;
