@@ -209,4 +209,12 @@
   width: 17px;
 }
 
-.email
+.radio-buttons{
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.phone-radio-btn{
+  margin-left: 50px;
+}
