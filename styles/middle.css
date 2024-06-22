@@ -202,3 +202,11 @@
   color: white;
   border-radius: 5px;
 }
+
+.email-radio-btn, .phone-radio-btn{
+  accent-color: red;
+  height: 17px;
+  width: 17px;
+}
+
+.email
