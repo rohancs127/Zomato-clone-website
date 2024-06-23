@@ -165,7 +165,7 @@
 }
 
 .get-the-zomato-app-subtitle{
-  color: rgb(57, 57, 57);
+  color: rgb(71, 71, 71);
 }
 
 .email-phone-share-div{
@@ -209,6 +209,10 @@
   width: 17px;
 }
 
+.email-radio-btn:hover , .phone-radio-btn:hover{
+  stroke: red;
+}
+
 .radio-buttons{
   display: flex;
   align-items: center;
@@ -217,4 +221,18 @@
 
 .phone-radio-btn{
   margin-left: 50px;
+}
+
+.download-app-from{
+  font-size: 13px;
+  color: rgb(156, 156, 156); 
+}
+
+.download-link{
+  display: flex;
+  column-gap: 20px;
+}
+
+.download-link img{
+  height: 40px;
 }
