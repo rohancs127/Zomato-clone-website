@@ -27,7 +27,7 @@
     font-family: metropolis-regular;
   }
 
-.middle-section-1, .middle-section-2{
+.middle-section-1, .middle-section-2, .middle-section-4{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -239,4 +239,28 @@
 
 .download-link img{
   height: 40px;
+}
+
+.middle-section-4{
+  font-family: metropolis-thin;
+}
+
+.middle-section-4 h1{
+  font-size: 27px;
+  font-family: metropolis-regular;
+  color: rgb(57, 57, 57);
+}
+
+.explore-options{
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  justify-content: space-between;
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: rgb(228, 228, 228);
+}
+
+.explore-options img{
+  height: 12px;
 }
