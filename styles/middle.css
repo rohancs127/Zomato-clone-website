@@ -203,6 +203,10 @@
   border-radius: 5px;
 }
 
+.share-app-btn:hover{
+  background-color: rgb(212, 37, 54);
+}
+
 .email-radio-btn, .phone-radio-btn{
   accent-color: red;
   height: 17px;
