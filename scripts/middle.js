@@ -9,8 +9,8 @@ const displayInfo = () => {
   if (!popularCuisinesFlag) {
     popularCuisinesDiv.innerHTML = popularCuisines;
     popularCuisinesFlag = true;
-  }
-  else {
+    arrow = document.querySelector(".arrow1").classList.add('right-arrow')
+  } else {
     popularCuisinesDiv.innerHTML = "";
     popularCuisinesFlag = false;
   }
