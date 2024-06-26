@@ -257,24 +257,35 @@
 .explore-options{
   display: flex;
   flex-direction: column;
-}
-
-.popular-cuisines-head, .popular-restaurants-head, .cities-delivered-head{
-  display: flex;
-  align-items: center;
-  width: 1000px;
-  justify-content: space-between;
-  padding: 8px;
+  row-gap: 15px;
+  padding-top: 8px;
   padding-left: 22px;
   padding-right: 22px;
   border:solid 1px rgb(228, 228, 228);
   border-radius: 8px;
   font-size: 12px;
   color: rgb(60, 60, 60);
+  width: 1000px;
+}
+
+.popular-cuisines-head, .popular-restaurants-head, .cities-delivered-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   letter-spacing: 1px;
 }
 
 .explore-options img{
   height: 12px;
   rotate: 90deg;
+}
+
+.popular-cuisines{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  font-size: 15px;
+  color: rgb(145, 144, 144);
+  font-family: metropolis-regular;
+  line-height: 25px;
 }
