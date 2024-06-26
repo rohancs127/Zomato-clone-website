@@ -256,6 +256,11 @@
 
 .explore-options{
   display: flex;
+  flex-direction: column;
+}
+
+.popular-cuisines-head{
+  display: flex;
   align-items: center;
   width: 1000px;
   justify-content: space-between;
