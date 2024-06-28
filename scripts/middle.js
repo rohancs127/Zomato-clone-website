@@ -5,13 +5,16 @@ let popularCuisinesDiv = document.querySelector(".popularCuisinesDiv");
 
 let popularCuisinesFlag = false;
 
-const displayInfo = () => {
+const displayPopularCuisines = () => {
   if (!popularCuisinesFlag) {
     popularCuisinesDiv.innerHTML = popularCuisines;
     popularCuisinesFlag = true;
-    arrow = document.querySelector(".arrow1").classList.add('right-arrow')
+    arrow = document.querySelector(".arrow1").classList.add("right-arrow");
   } else {
     popularCuisinesDiv.innerHTML = "";
     popularCuisinesFlag = false;
   }
 };
+
+let popularRestaurants =
+  "<div><div>Bakeries near me</div> <div>&#x2022;</div> <div>Beverage Shops near me</div> <div>&#x2022;</div> <div>Bhojanalya near me</div> <div>&#x2022;</div> <div>Casual Dining near me</div> <div>&#x2022;</div> <div>Dessert Parlors near me</div> <div>&#x2022;</div> <div>Food Courts near me</div> <div>&#x2022;</div> <div>Lounges near me</div> <div>&#x2022;</div> <div>Quick Bites near me</div></div>";
