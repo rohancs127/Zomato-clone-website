@@ -23,7 +23,7 @@ let popularRestaurantsDiv = document.querySelector(".popularRestaurantsDiv");
 
 let popularRestaurantsFlag = false;
 
-const displayPopularRestaurants = ()=>{
+const displayPopularRestaurants = () => {
   if (!popularRestaurantsFlag) {
     popularRestaurantsDiv.innerHTML = popularRestaurants;
     popularRestaurantsFlag = true;
@@ -32,6 +32,22 @@ const displayPopularRestaurants = ()=>{
     popularRestaurantsDiv.innerHTML = "";
     popularRestaurantsFlag = false;
   }
-}
+};
 
-let citiesDelivered = "Delhi NCR Kolkata Mumbai Bengaluru Pune Hyderabad Chennai Lucknow Kochi Jaipur Ahmedabad Chandigarh Goa Indore Gangtok Nashik Ooty Shimla Ludhiana Guwahati Amritsar Kanpur Allahabad Aurangabad Bhopal Ranchi Visakhapatnam Bhubaneswar Coimbatore Mangalore Vadodara Nagpur Agra Dehradun Mysore Puducherry Surat Varanasi Patna Udaipur Srinagar Khajuraho Neemrana Cuttack Trivandrum Haridwar Leh Pushkar Rajkot Madurai Kozhikode Alappuzha Thrissur Manipal Vijayawada Jodhpur Kota Ajmer Mussoorie Rishikesh Jalandhar Jammu Manali All delivery cities"
+let citiesDelivered =
+  "<div class='cities-delivered'><div>Delhi NCR</div> <div>Kolkata</div> <div>Mumbai</div> <div>Bengaluru</div> <div>Pune</div> <div>Hyderabad</div> <div>Chennai</div> <div>Lucknow</div> <div>Kochi</div> <div>Jaipur</div> <div>Ahmedabad</div> <div>Chandigarh</div> <div>Goa</div> <div>Indore</div> <div>Gangtok</div> <div>Nashik</div> <div>Ooty</div> <div>Shimla</div> <div>Ludhiana</div> <div>Guwahati</div> <div>Amritsar</div> <div>Kanpur</div> <div>Allahabad</div> <div>Aurangabad</div> <div>Bhopal</div> <div>Ranchi</div> <div>Visakhapatnam</div> <div>Bhubaneswar</div> <div>Coimbatore</div> <div>Mangalore</div> <div>Vadodara</div> <div>Nagpur</div> <div>Agra</div> <div>Dehradun</div> <div>Mysore</div> <div>Puducherry</div> <div>Surat</div> <div>Varanasi</div> <div>Patna</div> <div>Udaipur</div> <div>Srinagar</div> <div>Khajuraho</div> <div>Neemrana</div> <div>Cuttack</div> <div>Trivandrum</div> <div>Haridwar</div> <div>Leh</div> <div>Pushkar</div> <div>Rajkot</div> <div>Madurai</div> <div>Kozhikode</div> <div>Alappuzha</div> <div>Thrissur</div> <div>Manipal</div> <div>Vijayawada</div> <div>Jodhpur</div> <div>Kota</div> <div>Ajmer</div> <div>Mussoorie</div> <div>Rishikesh</div> <div>Jalandhar</div> <div>Jammu</div> <div>Manali</div> <div>All delivery cities</div></div>";
+
+let citiesDeliveredDiv = document.querySelector(".citiesDeliveredDiv");
+
+let citiesDeliveredFlag = false;
+
+const displayCitiesDelivered = () => {
+  if (!citiesDeliveredFlag) {
+    citiesDeliveredDiv.innerHTML = citiesDelivered;
+    citiesDeliveredFlag = true;
+    arrow = document.querySelector(".arrow3").classList.add("right-arrow");
+  } else {
+    citiesDeliveredDiv.innerHTML = "";
+    citiesDeliveredFlag = false;
+  }
+};

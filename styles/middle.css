@@ -290,6 +290,14 @@
   margin-top: 15px;
 }
 
+.cities-delivered{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-size: 15px;
+  row-gap: 20px;
+  margin-top: 15px;
+}
+
 .rotate-arrow {
   scale: 2;
 }
