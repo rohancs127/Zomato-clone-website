@@ -1,40 +1,44 @@
 @font-face {
-    font-family: metropolis-thin;
-    src: url("../fonts/metropolis.thin.otf");
-  }
-  
-  @font-face {
-    font-family: metropolis-medium;
-    src: url("../fonts/metropolis.medium.otf");
-  }
-  
-  @font-face {
-    font-family: metropolis-regular;
-    src: url("../fonts/metropolis.regular.otf");
-  }
-  
-  @font-face {
-    font-family: metropolis-semibold;
-    src: url("../fonts/metropolis.semi-bold.otf");
-  }
-  
-  @font-face {
-    font-family: metropolis-extralight;
-    src: url("../fonts/metropolis.extra-light.otf");
-  }
-  
-.middle-section-1, .middle-section-2, .middle-section-3{
-    font-family: metropolis-regular;
-  }
+  font-family: metropolis-thin;
+  src: url("../fonts/metropolis.thin.otf");
+}
 
-.middle-section-1, .middle-section-2, .middle-section-4{
+@font-face {
+  font-family: metropolis-medium;
+  src: url("../fonts/metropolis.medium.otf");
+}
+
+@font-face {
+  font-family: metropolis-regular;
+  src: url("../fonts/metropolis.regular.otf");
+}
+
+@font-face {
+  font-family: metropolis-semibold;
+  src: url("../fonts/metropolis.semi-bold.otf");
+}
+
+@font-face {
+  font-family: metropolis-extralight;
+  src: url("../fonts/metropolis.extra-light.otf");
+}
+
+.middle-section-1,
+.middle-section-2,
+.middle-section-3 {
+  font-family: metropolis-regular;
+}
+
+.middle-section-1,
+.middle-section-2,
+.middle-section-4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 350px;
 }
 
-.middle-section-2{
+.middle-section-2 {
   row-gap: 20px;
 }
 
@@ -48,7 +52,7 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.order-online:hover{
+.order-online:hover {
   transform: scale(1.04);
 }
 
@@ -59,40 +63,41 @@
   object-position: 0px -140px;
 }
 
-.order-online-text{
-    position:relative;
-    bottom: 90px;
-    background-color: #fff;
-    padding-bottom: 20px;
-    padding-top: 5px;
-    padding-left: 8px;
+.order-online-text {
+  position: relative;
+  bottom: 90px;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 8px;
 }
 
-.order-online-title, .order-online-subtitle{
+.order-online-title,
+.order-online-subtitle {
   margin: 10px;
   color: rgb(60, 60, 60);
 }
 
-.order-online-title{
+.order-online-title {
   font-size: 1.1rem;
 }
 
-.middle-section-2{
+.middle-section-2 {
   margin-top: 50px;
   font-family: metropolis-thin;
 }
 
-.mid-sec-2-heading{
+.mid-sec-2-heading {
   color: rgb(88, 88, 88);
   letter-spacing: 1px;
 }
 
-.location-name{
+.location-name {
   color: rgb(34, 34, 34);
   margin: 0;
 }
 
-.locality-checkin{
+.locality-checkin {
   display: flex;
   column-gap: 150px;
   align-items: center;
@@ -103,35 +108,35 @@
   border-radius: 5px;
 }
 
-.locality-checkin:hover{
+.locality-checkin:hover {
   box-shadow: 1px 3px 6px rgba(153, 153, 153, 0.26);
 }
 
-.locality-checkin-details{
+.locality-checkin-details {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 9px;
 }
 
-.locality-checkin-heading{
+.locality-checkin-heading {
   font-size: 18px;
   font-family: metropolis-regular;
 }
 
-.locality-checkin-places{
+.locality-checkin-places {
   font-size: 15px;
 }
 
-.arrow-right{
- color: rgb(91, 91, 91);
+.arrow-right {
+  color: rgb(91, 91, 91);
 }
 
-.smartphone-img{
+.smartphone-img {
   height: 200px;
 }
 
-.middle-section-3{
+.middle-section-3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,40 +146,40 @@
   padding: 40px;
 }
 
-.get-the-zomato-app-div *{
+.get-the-zomato-app-div * {
   margin: 0;
   padding: 0;
 }
 
-.get-the-zomato-app-div{
+.get-the-zomato-app-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 20px;
 }
 
-.get-the-zomato-app-div h1{
+.get-the-zomato-app-div h1 {
   font-family: metropolis-regular;
   font-size: 37px;
   letter-spacing: 2px;
 }
 
-.get-the-zomato-app-div p{
-  line-height:1.8;
+.get-the-zomato-app-div p {
+  line-height: 1.8;
   width: 460px;
 }
 
-.get-the-zomato-app-subtitle{
+.get-the-zomato-app-subtitle {
   color: rgb(71, 71, 71);
 }
 
-.email-phone-share-div{
+.email-phone-share-div {
   display: flex;
   align-items: center;
   column-gap: 10px;
 }
 
-.email-phone-input{
+.email-phone-input {
   padding: 14px;
   font-family: metropolis-thin;
   font-size: 17px;
@@ -184,16 +189,15 @@
   outline: none;
 }
 
-.email-phone-input::placeholder{
+.email-phone-input::placeholder {
   color: gray;
 }
 
-.email-phone-input:focus{
+.email-phone-input:focus {
   border-color: green;
 }
 
-
-.share-app-btn{
+.share-app-btn {
   font-family: metropolis-regular;
   font-size: 15px;
   background-color: rgb(239, 79, 95);
@@ -203,83 +207,87 @@
   border-radius: 5px;
 }
 
-.share-app-btn:hover{
+.share-app-btn:hover {
   background-color: rgb(212, 37, 54);
 }
 
-.email-radio-btn, .phone-radio-btn{
+.email-radio-btn,
+.phone-radio-btn {
   accent-color: red;
   height: 17px;
   width: 17px;
 }
 
-.email-radio-btn:hover , .phone-radio-btn:hover{
+.email-radio-btn:hover,
+.phone-radio-btn:hover {
   stroke: red;
 }
 
-.radio-buttons{
+.radio-buttons {
   display: flex;
   align-items: center;
   column-gap: 8px;
 }
 
-.phone-radio-btn{
+.phone-radio-btn {
   margin-left: 50px;
 }
 
-.download-app-from{
+.download-app-from {
   font-size: 13px;
-  color: rgb(156, 156, 156); 
+  color: rgb(156, 156, 156);
 }
 
-.download-link{
+.download-link {
   display: flex;
   column-gap: 20px;
 }
 
-.download-link img{
+.download-link img {
   height: 40px;
 }
 
-.middle-section-4{
+.middle-section-4 {
   font-family: metropolis-thin;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
 
-.middle-section-4 h1{
+.middle-section-4 h1 {
   font-size: 26px;
   font-family: metropolis-regular;
   color: rgb(57, 57, 57);
 }
 
-.explore-options{
+.explore-options {
   display: flex;
   flex-direction: column;
   padding: 8px;
   padding-left: 22px;
   padding-right: 22px;
-  border:solid 1px rgb(228, 228, 228);
+  border: solid 1px rgb(228, 228, 228);
   border-radius: 8px;
   font-size: 12px;
   color: rgb(60, 60, 60);
   width: 1000px;
 }
 
-.popular-cuisines-head, .popular-restaurants-head, .cities-delivered-head{
+.popular-cuisines-head,
+.popular-restaurants-head,
+.cities-delivered-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   letter-spacing: 1px;
 }
 
-.explore-options img{
+.explore-options img {
   height: 12px;
   rotate: 90deg;
 }
 
-.explore-options-inside-div{
+.explore-options-inside-div {
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
@@ -290,12 +298,22 @@
   margin-top: 15px;
 }
 
-.cities-delivered{
+.cities-delivered {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   font-size: 15px;
   row-gap: 20px;
   margin-top: 15px;
+}
+
+.all-delivery-cities {
+  color: black;
+  font-family: metropolis-semibold;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.all-delivery-cities:hover {
+  color: rgb(45, 45, 45);
 }
 
 .rotate-arrow {
