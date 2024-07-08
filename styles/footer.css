@@ -41,3 +41,7 @@
 .language-div, .country-div{
   column-gap: 10px;
 }
+
+.down-mark{
+  rotate: 90deg;
+}
