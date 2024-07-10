@@ -38,16 +38,32 @@
 .country-language-div, .country-div, .language-div{
   display: flex;
   align-items: center;
+  font-family: metropolis-regular;
+  font-size: 17px;
+}
+
+.country-language-div{
+  column-gap: 20px;
 }
 
 .language-div, .country-div{
   column-gap: 10px;
+  border:solid 1px rgb(192, 191, 191);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
 }
 
 .down-mark{
   rotate: 90deg;
+  height: 8px;
 }
 
 .zomato-dark-logo{
   height: 30px;
+}
+
+.country-img, .language-img{
+  height: 22px;
 }
