@@ -25,6 +25,8 @@
 .footer-section {
   background-color: rgba(229, 226, 226, 0.162);
   font-family: metropolis-thin;
+  margin-top: 50px;
+  padding-top: 30px;
 }
 
 .footer-section-1{
@@ -44,4 +46,8 @@
 
 .down-mark{
   rotate: 90deg;
+}
+
+.zomato-dark-logo{
+  height: 30px;
 }
