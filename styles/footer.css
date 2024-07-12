@@ -30,46 +30,62 @@
   padding-left: 40px;
 }
 
-.footer-section-1{
+.footer-section-1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.country-language-div, .country-div, .language-div{
+.country-language-div,
+.country-div,
+.language-div {
   display: flex;
   align-items: center;
   font-family: metropolis-regular;
   font-size: 17px;
 }
 
-.country-language-div{
+.country-language-div {
   column-gap: 20px;
 }
 
-.language-div, .country-div{
+.language-div,
+.country-div {
   column-gap: 10px;
-  border:solid 1px rgb(192, 191, 191);
+  border: solid 1px rgb(192, 191, 191);
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
 }
 
-.down-mark{
+.down-mark {
   rotate: 90deg;
   height: 8px;
 }
 
-.zomato-dark-logo{
+.zomato-dark-logo {
   height: 27px;
 }
 
-.country-img, .language-img{
+.country-img,
+.language-img {
   height: 22px;
 }
 
-.footer-section-2{
+.footer-section-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap: 100px;
+  margin-top: 25px;
+}
+
+.about-zomato-div h4,
+.zomaverse-div h4,
+.for-restaurants-div h4,
+.learn-more-div h4,
+.social-links-div h4 {
+  font-family: metropolis-regular;
+  font-size: 13px;
+  letter-spacing: 2px;
 }
