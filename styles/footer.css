@@ -99,3 +99,13 @@
   font-size: 14px;
   color: rgb(149, 149, 149);;
 }
+
+.about-zomato-div,
+.zomaverse-div,
+.for-restaurants-div,
+.learn-more-div,
+.social-links-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
