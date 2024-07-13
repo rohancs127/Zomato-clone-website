@@ -89,3 +89,13 @@
   font-size: 13px;
   letter-spacing: 2px;
 }
+
+.about-zomato-div div,
+.zomaverse-div div,
+.for-restaurants-div div,
+.learn-more-div div,
+.social-links-div div{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(149, 149, 149);;
+}
