@@ -110,3 +110,11 @@
   flex-direction: column;
   row-gap: 7px;
 }
+
+.social-link-icons{
+  margin-bottom: 15px;
+}
+
+.install-app-footer{
+  height: 35px;
+}
