@@ -130,3 +130,9 @@
   width: 1020px;
   border-color: rgba(220, 220, 220, 0.448);
 }
+
+.copyrights{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
