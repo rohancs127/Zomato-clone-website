@@ -118,3 +118,15 @@
 .install-app-footer{
   height: 35px;
 }
+
+.footer-section-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.line{
+  width: 1020px;
+  border-color: rgba(220, 220, 220, 0.448);
+}
