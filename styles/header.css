@@ -170,6 +170,10 @@ body {
   padding: 3px;
   padding-left: 10px;
 }
+
+.location-box{
+  cursor: pointer;
+}
 .separator {
   height: 20px;
 }
@@ -272,6 +276,7 @@ h1 {
   font-size: 15px;
   border-radius: 10px;
   display: none;
+  cursor: pointer;
 }
 .tooltip-element,
 .tooltip-element-top,
