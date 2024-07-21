@@ -50,6 +50,7 @@
   overflow: hidden;
   box-shadow: 0px 0px 1px rgb(60, 60, 60);
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .order-online:hover {
@@ -90,6 +91,7 @@
 .mid-sec-2-heading {
   color: rgb(88, 88, 88);
   letter-spacing: 1px;
+  cursor: text;
 }
 
 .location-name {
@@ -106,6 +108,7 @@
   transition: 0.2s;
   padding: 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .locality-checkin:hover {
@@ -205,6 +208,7 @@
   border: none;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .share-app-btn:hover {
@@ -229,6 +233,13 @@
   column-gap: 8px;
 }
 
+.email-radio-btn,
+.phone-radio-btn,
+.email-label,
+.phone-label {
+  cursor: pointer;
+}
+
 .phone-radio-btn {
   margin-left: 50px;
 }
@@ -245,6 +256,7 @@
 
 .download-link img {
   height: 40px;
+  cursor: pointer;
 }
 
 .middle-section-4 {
@@ -259,6 +271,7 @@
   font-size: 26px;
   font-family: metropolis-regular;
   color: rgb(57, 57, 57);
+  cursor: text;
 }
 
 .explore-options {
@@ -272,6 +285,7 @@
   font-size: 12px;
   color: rgb(60, 60, 60);
   width: 1000px;
+  cursor: pointer;
 }
 
 .popular-cuisines-head,
